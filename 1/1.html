@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,chrome=1"><meta name="generator" content="MATLAB 2023b"><title>Untitled</title><style type="text/css">.rtcContent { padding: 30px; } .CodeBlock { background-color: #F5F5F5; margin: 10px 0 10px 0; }
+.S0 { border-left: 1px solid rgb(217, 217, 217); border-right: 1px solid rgb(217, 217, 217); border-top: 1px solid rgb(217, 217, 217); border-bottom: 0px none rgb(33, 33, 33); border-radius: 4px 4px 0px 0px; padding: 6px 45px 0px 13px; line-height: 18.004px; min-height: 0px; white-space: nowrap; color: rgb(33, 33, 33); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S1 { border-left: 1px solid rgb(217, 217, 217); border-right: 1px solid rgb(217, 217, 217); border-top: 0px none rgb(33, 33, 33); border-bottom: 0px none rgb(33, 33, 33); border-radius: 0px; padding: 0px 45px 0px 13px; line-height: 18.004px; min-height: 0px; white-space: nowrap; color: rgb(33, 33, 33); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S2 { border-left: 1px solid rgb(217, 217, 217); border-right: 1px solid rgb(217, 217, 217); border-top: 0px none rgb(33, 33, 33); border-bottom: 1px solid rgb(217, 217, 217); border-radius: 0px; padding: 0px 45px 4px 13px; line-height: 18.004px; min-height: 0px; white-space: nowrap; color: rgb(33, 33, 33); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S3 { color: rgb(33, 33, 33); padding: 10px 0px 6px 17px; background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box; font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px; overflow-x: hidden; line-height: 17.234px;  }
+/* Styling that is common to warnings and errors is in diagnosticOutput.css */.embeddedOutputsErrorElement {    min-height: 18px;    max-height: 550px;}
+.embeddedOutputsErrorElement .diagnosticMessage-errorType {    overflow: auto;}
+.embeddedOutputsErrorElement.inlineElement {}
+.embeddedOutputsErrorElement.rightPaneElement {}
+/* Styling that is common to warnings and errors is in diagnosticOutput.css */.embeddedOutputsWarningElement {    min-height: 18px;    max-height: 550px;}
+.embeddedOutputsWarningElement .diagnosticMessage-warningType {    overflow: auto;}
+.embeddedOutputsWarningElement.inlineElement {}
+.embeddedOutputsWarningElement.rightPaneElement {}
+/* Copyright 2015-2023 The MathWorks, Inc. *//* In this file, styles are not scoped to rtcContainer since they could be in the Dojo Tooltip */.diagnosticMessage-wrapper {    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;    font-size: 12px;}
+.diagnosticMessage-wrapper.diagnosticMessage-warningType {    /*This fallback value will be used for appdesigner warnings*/    color: var(--rtc-warning-output-color, var(--mw-color-matlabWarning));}
+.diagnosticMessage-wrapper.diagnosticMessage-warningType a {    /*This fallback value will be used for appdesigner warnings*/    color: var(--rtc-warning-output-color, var(--mw-color-matlabWarning));    text-decoration: underline;}
+.rtcThemeDefaultOverride .diagnosticMessage-wrapper.diagnosticMessage-warningType,.rtcThemeDefaultOverride .diagnosticMessage-wrapper.diagnosticMessage-warningType a {    color: var(--mw-color-matlabWarning) !important;}
+.diagnosticMessage-wrapper.diagnosticMessage-errorType {    /*This fallback value will be used in appdesigner error tooltip text*/    color: var(--rtc-error-output-color, var(--mw-color-matlabErrors));}
+.diagnosticMessage-wrapper.diagnosticMessage-errorType a {    /*This fallback value will be used in appdesigner error tooltip text*/    color: var(--rtc-error-output-color, var(--mw-color-matlabErrors));    text-decoration: underline;}
+.rtcThemeDefaultOverride .diagnosticMessage-wrapper.diagnosticMessage-errorType,.rtcThemeDefaultOverride .diagnosticMessage-wrapper.diagnosticMessage-errorType a {    color: var(--mw-color-matlabErrors) !important;}
+.diagnosticMessage-wrapper .diagnosticMessage-messagePart,.diagnosticMessage-wrapper .diagnosticMessage-causePart {    white-space: pre-wrap;}
+.diagnosticMessage-wrapper .diagnosticMessage-stackPart {    white-space: pre;}
+.embeddedOutputsTextElement,.embeddedOutputsVariableStringElement {    white-space: pre;    word-wrap:  initial;    min-height: 18px;    max-height: 550px;}
+.embeddedOutputsTextElement .textElement,.embeddedOutputsVariableStringElement .textElement {    overflow: auto;}
+.textElement,.rtcDataTipElement .textElement {    padding-top: 2px;}
+.embeddedOutputsTextElement.inlineElement,.embeddedOutputsVariableStringElement.inlineElement {}
+.inlineElement .textElement {}
+.embeddedOutputsTextElement.rightPaneElement,.embeddedOutputsVariableStringElement.rightPaneElement {    min-height: 16px;}
+.rightPaneElement .textElement {    padding-top: 2px;    padding-left: 9px;}
+.S4 { border-left: 1px solid rgb(217, 217, 217); border-right: 1px solid rgb(217, 217, 217); border-top: 0px none rgb(33, 33, 33); border-bottom: 1px solid rgb(217, 217, 217); border-radius: 0px 0px 4px 4px; padding: 0px 45px 4px 13px; line-height: 18.004px; min-height: 0px; white-space: nowrap; color: rgb(33, 33, 33); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }</style></head><body><div class = rtcContent><div class="CodeBlock"><div class="inlineWrapper"><div  class = 'S0'><span style="white-space: pre"><span style="color: rgb(0, 128, 19);">% frequency of operation,</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span style="color: rgb(0, 128, 19);">% pulse repetition frequency,</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span style="color: rgb(0, 128, 19);">% bandwidth of the system, peak power of the system</span></span></div></div><div class="inlineWrapper outputs"><div  class = 'S2'><span style="white-space: pre"><span >[r,u,t,a] = ruta(5.4*10^9, 1e4, 200*10^6, .5*10^6);</span></span></div><div  class = 'S3'><div class="inlineElement eoOutputWrapper disableDefaultGestureHandling embeddedOutputsTextElement" uid="30AFA513" prevent-scroll="true" data-testid="output_0" style="width: 832px; white-space: pre; font-style: normal; color: rgb(33, 33, 33); font-size: 12px;" tabindex="-1"><div class="textElement eoOutputContent" data-previous-available-width="795" data-previous-scroll-height="61" data-hashorizontaloverflow="false" style="max-height: 261px; white-space: pre; font-style: normal; color: rgb(33, 33, 33); font-size: 12px;" tabindex="-1">range resolution: 0.75 m
+maximum unambiguous range: 15000 m
+transmit duty cycle: 0.005 %
+average power in the system: 2500 W</div></div></div></div></div><div class="CodeBlock"><div class="inlineWrapper"><div  class = 'S0'><span style="white-space: pre"><span style="color: rgb(14, 0, 255);">function </span><span >[r,u,t,a] = ruta(fo,f,b,p)</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span >c = 3*10^8; r = c/2/b;</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span >u = c/2/f; t = f*100/b; a = t*p;</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span >disp([</span><span style="color: rgb(167, 9, 245);">'range resolution: '</span><span >, num2str(r), </span><span style="color: rgb(167, 9, 245);">' m'</span><span >]);</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span >disp([</span><span style="color: rgb(167, 9, 245);">'maximum unambiguous range: '</span><span >, num2str(u),</span><span style="color: rgb(14, 0, 255);">...</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span style="color: rgb(167, 9, 245);">' m'</span><span >]);</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span >disp([</span><span style="color: rgb(167, 9, 245);">'transmit duty cycle: '</span><span >, num2str(t), </span><span style="color: rgb(167, 9, 245);">' %'</span><span >]);</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span >disp([</span><span style="color: rgb(167, 9, 245);">'average power in the system: '</span><span >, num2str(a), </span><span style="color: rgb(14, 0, 255);">...</span></span></div></div><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre"><span >    </span><span style="color: rgb(167, 9, 245);">' W'</span><span >]);</span></span></div></div><div class="inlineWrapper"><div  class = 'S4'><span style="white-space: pre"><span style="color: rgb(14, 0, 255);">end</span></span></div></div></div>
+<br>
+<!-- 
+##### SOURCE BEGIN #####
+% frequency of operation,
+% pulse repetition frequency,
+% bandwidth of the system, peak power of the system
+[r,u,t,a] = ruta(5.4*10^9, 1e4, 200*10^6, .5*10^6);
+%%
+function [r,u,t,a] = ruta(fo,f,b,p)
+c = 3*10^8; r = c/2/b;
+u = c/2/f; t = f*100/b; a = t*p;
+disp(['range resolution: ', num2str(r), ' m']);
+disp(['maximum unambiguous range: ', num2str(u),...
+' m']);
+disp(['transmit duty cycle: ', num2str(t), ' %']);
+disp(['average power in the system: ', num2str(a), ...
+    ' W']);
+end
+##### SOURCE END #####
+-->
+</div></body></html>
